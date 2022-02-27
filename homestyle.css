@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/gettyimages-1094579402-612x612.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Langar', cursive;;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(153, 167, 29);
+    border: rgb(168, 153, 153) 1.5px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background: transparent;
+}
+.nav-bar ul li a:hover {
+    background-color:yellowgreen ;
+    color: thistle;
+    transition: 0.5s ease-in 0.5s;
+}
+
+main {
+    position: absolute;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    top: 30%;
+    left:5%;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-bottom: 1rem ;
+    color: white;
+}
+
+
+.main-button {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border: white 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 1rem;
+    background: transparent;
+}
+
+.main-button:hover {
+    background-color: rgb(104, 104, 14);
+    color: wheat;
+    transition: 0.5s ease-in 0.7s;
+}
